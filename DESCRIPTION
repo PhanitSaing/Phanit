@@ -1,0 +1,18 @@
+Package: Phanit
+Version: 0.0.0.9000
+Title: Phanit Formation R Package
+Description: What the package does (one paragraph).
+Authors@R: c(
+    person("Phanit", "Saing", , "phanit.saing@lecnam.net", c("aut", "cre")),
+    person("Cnam", " ", , " ", c("aut")))
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+RoxygenNote: 6.0.1
+Imports: 
+    crul,
+    jsonlite,
+    stats
+Suggests: 
+    testthat
